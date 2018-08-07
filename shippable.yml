@@ -4,7 +4,7 @@ resources:
     type: gitRepo
     integration: "git_ship"
     versionTemplate:
-      sourceName: "devops-recipes/prov_aws_vpc_terraform"
+      sourceName: "sanster23/prov_aws_vpc_terraform"
       branch: master
 
 # AWS credentials
