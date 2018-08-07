@@ -2,7 +2,7 @@ resources:
 # Automation scripts repo
   - name: aws_vpc_tf_repo
     type: gitRepo
-    integration: "drship_github"
+    integration: "git_ship"
     versionTemplate:
       sourceName: "devops-recipes/prov_aws_vpc_terraform"
       branch: master
@@ -10,7 +10,7 @@ resources:
 # AWS credentials
   - name: aws_vpc_tf_creds
     type: integration
-    integration: "drship_aws"
+    integration: "aws_ship"
 
 # Terraform State
   - name: aws_vpc_tf_state
